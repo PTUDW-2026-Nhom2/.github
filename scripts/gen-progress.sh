@@ -10,8 +10,9 @@ DIR=$(cd "$(dirname "$0")" && pwd)
 
 items=$(gh api graphql --paginate -F org="$OWNER" -F num="$PROJECT" -F query=@"$DIR/project.graphql" \
   -q '.data.organization.projectV2.items.nodes[]
-      | select(.content.number and (.status.name == "In Progress"))
+      | select(.content.number)
       | {number: .content.number, title: .content.title, url: .content.url,
+         status: (.status.name // "Todo"),
          assignees: [.content.assignees.nodes[].login],
          prs: [.content.closedByPullRequestsReferences.nodes[] | {number, url}]}' | jq -s .)
 
@@ -23,7 +24,16 @@ html=$(jq -r --arg board "$BOARD" --arg now "$(TZ=Asia/Ho_Chi_Minh date '+%d/%m/
   def prs: (if (.prs | length) == 0 then "—"
             else (.prs | map("<a href=\"" + .url + "\">#" + (.number|tostring) + "</a>") | join(" ")) end);
 
+  def bar(p): (((p / 10) | floor) as $f | ("█" * $f) + ("░" * (10 - $f)));
+  (map(select(.status == "Done")) | length) as $done
+  | (map(select(.status == "In Progress")) | length) as $doing
+  | length as $total
+  | (if $total > 0 then ($done * 100 / $total | round) else 0 end) as $pct
+  | map(select(.status == "In Progress")) as $tasks
+  |
   "<h2>🔨 Công việc đang làm</h2>",
+  "",
+  "<p align=\"center\"><code>\(bar($pct))</code> <b>\($pct)%</b> — ✅ <b>\($done)</b> xong · 🔨 <b>\($doing)</b> đang làm · 📋 <b>\($total - $done - $doing)</b> chờ · tổng <b>\($total)</b> việc</p>",
   "",
   "<p align=\"center\">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href=\"\($board)\"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>\($now)</b></p>",
   "",
@@ -31,7 +41,7 @@ html=$(jq -r --arg board "$BOARD" --arg now "$(TZ=Asia/Ho_Chi_Minh date '+%d/%m/
   "<table>",
   "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã FR</th><th align=\"left\">Công việc</th><th align=\"center\">Người làm</th><th align=\"center\">PR</th></tr></thead>",
   "  <tbody>",
-  (sort_by(-.number)[] | fr as $f |
+  ($tasks | sort_by(-.number)[] | fr as $f |
   "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c | esc)</code></td><td align=\"left\">\($f.rest | esc)</td><td align=\"center\">\(who)</td><td align=\"center\">\(prs)</td></tr>"),
   "  </tbody>",
   "</table>",
