@@ -1,0 +1,19 @@
+query($org:String!, $num:Int!, $endCursor:String) {
+  organization(login: $org) {
+    projectV2(number: $num) {
+      items(first: 100, after: $endCursor) {
+        pageInfo { hasNextPage endCursor }
+        nodes {
+          status: fieldValueByName(name: "Status") { ... on ProjectV2ItemFieldSingleSelectValue { name } }
+          content {
+            ... on Issue {
+              number title url
+              assignees(first: 5) { nodes { login } }
+              closedByPullRequestsReferences(first: 5, includeClosedPrs: true) { nodes { number url state } }
+            }
+          }
+        }
+      }
+    }
+  }
+}
