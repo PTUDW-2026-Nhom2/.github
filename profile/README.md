@@ -35,7 +35,7 @@
 <!-- PROGRESS:START -->
 <h2>📊 Phân chia công việc — tiến độ trực tiếp</h2>
 
-<p><sub>Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2">Project board</a> · cập nhật lần cuối: <b>23/09/2026 19:33 GMT+7</b></sub></p>
+<p><sub>Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2">Project board</a> · cập nhật lần cuối: <b>23/09/2026 19:35 GMT+7</b></sub></p>
 
 <div align="center">
 <table>
