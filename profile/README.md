@@ -35,7 +35,7 @@
 <!-- PROGRESS:START -->
 <h2>📋 Phân chia công việc</h2>
 
-<p><sub>Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2">Project board</a> · cập nhật lần cuối: <b>23/09/2026 19:38 GMT+7</b></sub></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/09/2026 21:35 GMT+7</b></p>
 
 <p>Mỗi thành viên phụ trách <b>trọn một khối tính năng</b> — từ database, API backend đến giao diện frontend.</p>
 
@@ -43,16 +43,20 @@
 <table>
   <thead><tr><th align="center">Thành viên</th><th align="center">Khối phụ trách</th><th align="center">Tiến độ</th><th align="center">✅</th><th align="center">🔨</th><th align="center">📋</th></tr></thead>
   <tbody>
-    <tr><td align="center"><img src="https://github.com/ChuChoaChan131019.png" width="32" height="32"/><br/><b>Trần Thị Phương Trang</b><br/><sub><a href="https://github.com/ChuChoaChan131019">@ChuChoaChan131019</a></sub></td><td align="center"><code>FR-RCP-001→007 · FR-JOB</code><br/><sub><code>recipes · jobs</code></sub></td><td align="center"><code>█░░░░░░░░░</code> 15%</td><td align="center">2</td><td align="center">2</td><td align="center">9</td></tr>
-    <tr><td align="center"><img src="https://github.com/minnhi09.png" width="32" height="32"/><br/><b>Đinh Thị Mai Lành</b><br/><sub><a href="https://github.com/minnhi09">@minnhi09</a></sub></td><td align="center"><code>FR-CAT · FR-SRCH</code><br/><sub><code>categories · search</code></sub></td><td align="center"><code>█░░░░░░░░░</code> 13%</td><td align="center">1</td><td align="center">2</td><td align="center">5</td></tr>
-    <tr><td align="center"><img src="https://github.com/dopaemon.png" width="32" height="32"/><br/><b>Trần Nguyễn Tuấn Anh</b><br/><sub><a href="https://github.com/dopaemon">@dopaemon</a></sub></td><td align="center"><code>FR-AUTH · FR-OBS</code><br/><sub><code>auth · docker</code></sub></td><td align="center"><code>█░░░░░░░░░</code> 13%</td><td align="center">2</td><td align="center">2</td><td align="center">11</td></tr>
-    <tr><td align="center"><img src="https://github.com/minhtai05.png" width="32" height="32"/><br/><b>Trần Minh Tài</b><br/><sub><a href="https://github.com/minhtai05">@minhtai05</a></sub></td><td align="center"><code>FR-RCP-008,009,010 · FR-FILE</code><br/><sub><code>media · recipes</code></sub></td><td align="center"><code>█░░░░░░░░░</code> 13%</td><td align="center">1</td><td align="center">2</td><td align="center">5</td></tr>
+    <tr><td align="center"><img src="https://github.com/ChuChoaChan131019.png" width="32" height="32"/><br/><b>Trần Thị Phương Trang</b><br/><a href="https://github.com/ChuChoaChan131019">@ChuChoaChan131019</a></td><td align="center"><code>FR-RCP-001→007 · FR-JOB</code><br/><code>recipes · jobs</code></td><td align="center"><code>█░░░░░░░░░</code> 15%</td><td align="center">2</td><td align="center">2</td><td align="center">9</td></tr>
+    <tr><td align="center"><img src="https://github.com/minnhi09.png" width="32" height="32"/><br/><b>Đinh Thị Mai Lành</b><br/><a href="https://github.com/minnhi09">@minnhi09</a></td><td align="center"><code>FR-CAT · FR-SRCH</code><br/><code>categories · search</code></td><td align="center"><code>█░░░░░░░░░</code> 13%</td><td align="center">1</td><td align="center">2</td><td align="center">5</td></tr>
+    <tr><td align="center"><img src="https://github.com/dopaemon.png" width="32" height="32"/><br/><b>Trần Nguyễn Tuấn Anh</b><br/><a href="https://github.com/dopaemon">@dopaemon</a></td><td align="center"><code>FR-AUTH · FR-OBS</code><br/><code>auth · docker</code></td><td align="center"><code>█░░░░░░░░░</code> 13%</td><td align="center">2</td><td align="center">2</td><td align="center">11</td></tr>
+    <tr><td align="center"><img src="https://github.com/minhtai05.png" width="32" height="32"/><br/><b>Trần Minh Tài</b><br/><a href="https://github.com/minhtai05">@minhtai05</a></td><td align="center"><code>FR-RCP-008,009,010 · FR-FILE</code><br/><code>media · recipes</code></td><td align="center"><code>█░░░░░░░░░</code> 13%</td><td align="center">1</td><td align="center">2</td><td align="center">5</td></tr>
   </tbody>
 </table>
 </div>
 
+<h2>🔨 Công việc chi tiết</h2>
+
 <details open>
-<summary><b>Trần Thị Phương Trang</b> — FR-RCP-001→007 · FR-JOB <sub>(2 đang làm · 2/13 xong)</sub></summary>
+<summary><h3>Trần Thị Phương Trang — 2 đang làm · 2/13 xong</h3></summary>
+
+<p><code>FR-RCP-001→007 · FR-JOB</code> · <code>recipes · jobs</code></p>
 
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã FR</th><th align="left">Công việc</th><th align="center">Trạng thái</th><th align="center">PR</th></tr></thead>
@@ -76,7 +80,9 @@
 </details>
 
 <details open>
-<summary><b>Đinh Thị Mai Lành</b> — FR-CAT · FR-SRCH <sub>(2 đang làm · 1/8 xong)</sub></summary>
+<summary><h3>Đinh Thị Mai Lành — 2 đang làm · 1/8 xong</h3></summary>
+
+<p><code>FR-CAT · FR-SRCH</code> · <code>categories · search</code></p>
 
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã FR</th><th align="left">Công việc</th><th align="center">Trạng thái</th><th align="center">PR</th></tr></thead>
@@ -95,7 +101,9 @@
 </details>
 
 <details open>
-<summary><b>Trần Nguyễn Tuấn Anh</b> — FR-AUTH · FR-OBS <sub>(2 đang làm · 2/15 xong)</sub></summary>
+<summary><h3>Trần Nguyễn Tuấn Anh — 2 đang làm · 2/15 xong</h3></summary>
+
+<p><code>FR-AUTH · FR-OBS</code> · <code>auth · docker</code></p>
 
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã FR</th><th align="left">Công việc</th><th align="center">Trạng thái</th><th align="center">PR</th></tr></thead>
@@ -121,7 +129,9 @@
 </details>
 
 <details open>
-<summary><b>Trần Minh Tài</b> — FR-RCP-008,009,010 · FR-FILE <sub>(2 đang làm · 1/8 xong)</sub></summary>
+<summary><h3>Trần Minh Tài — 2 đang làm · 1/8 xong</h3></summary>
+
+<p><code>FR-RCP-008,009,010 · FR-FILE</code> · <code>media · recipes</code></p>
 
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã FR</th><th align="left">Công việc</th><th align="center">Trạng thái</th><th align="center">PR</th></tr></thead>
@@ -139,7 +149,7 @@
 
 </details>
 
-<p align="center"><sub>Tổng: <b>43</b> đầu việc · ✅ 6 xong · 🔨 8 đang làm · 📋 29 chờ · <a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues">tất cả issue</a></sub></p>
+<p align="center">Tổng: <b>43</b> đầu việc · ✅ <b>6</b> xong · 🔨 <b>8</b> đang làm · 📋 <b>29</b> chờ · <a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues">tất cả issue</a></p>
 <!-- PROGRESS:END -->
 
 <h2>👥 Thành viên nhóm — CTK47A</h2>

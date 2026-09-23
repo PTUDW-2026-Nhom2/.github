@@ -6,7 +6,7 @@ OWNER=${OWNER:-PTUDW-2026-Nhom2}
 PROJECT=${PROJECT:-2}
 REPO=${REPO:-CulinaryBlog}
 README=${README:-profile/README.md}
-BOARD="https://github.com/orgs/$OWNER/projects/$PROJECT"
+BOARD="https://github.com/orgs/$OWNER/projects/$PROJECT/views/3"
 DIR=$(cd "$(dirname "$0")" && pwd)
 
 items=$(gh api graphql --paginate -F org="$OWNER" -F num="$PROJECT" -F query=@"$DIR/project.graphql" \
@@ -46,7 +46,7 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
 
   | "<h2>📋 Phân chia công việc</h2>",
     "",
-    "<p><sub>Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href=\"\($board)\">Project board</a> · cập nhật lần cuối: <b>\($now)</b></sub></p>",
+    "<p align=\"center\">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href=\"\($board)\"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>\($now)</b></p>",
     "",
     "<p>Mỗi thành viên phụ trách <b>trọn một khối tính năng</b> — từ database, API backend đến giao diện frontend.</p>",
     "",
@@ -55,14 +55,18 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
     "  <thead><tr><th align=\"center\">Thành viên</th><th align=\"center\">Khối phụ trách</th><th align=\"center\">Tiến độ</th><th align=\"center\">✅</th><th align=\"center\">🔨</th><th align=\"center\">📋</th></tr></thead>",
     "  <tbody>",
     ($rows[] | (if .total > 0 then (.done * 100 / .total | round) else 0 end) as $p |
-    "    <tr><td align=\"center\"><img src=\"https://github.com/\(.login).png\" width=\"32\" height=\"32\"/><br/><b>\(.name)</b><br/><sub><a href=\"https://github.com/\(.login)\">@\(.login)</a></sub></td><td align=\"center\"><code>\(.block)</code><br/><sub><code>\(.scope)</code></sub></td><td align=\"center\"><code>\(bar($p))</code> \($p)%</td><td align=\"center\">\(.done)</td><td align=\"center\">\(.doing)</td><td align=\"center\">\(.todo)</td></tr>"),
+    "    <tr><td align=\"center\"><img src=\"https://github.com/\(.login).png\" width=\"32\" height=\"32\"/><br/><b>\(.name)</b><br/><a href=\"https://github.com/\(.login)\">@\(.login)</a></td><td align=\"center\"><code>\(.block)</code><br/><code>\(.scope)</code></td><td align=\"center\"><code>\(bar($p))</code> \($p)%</td><td align=\"center\">\(.done)</td><td align=\"center\">\(.doing)</td><td align=\"center\">\(.todo)</td></tr>"),
     "  </tbody>",
     "</table>",
     "</div>",
     "",
+    "<h2>🔨 Công việc chi tiết</h2>",
+    "",
     ($rows[] |
       "<details open>",
-      "<summary><b>\(.name)</b> — \(.block) <sub>(\(.doing) đang làm · \(.done)/\(.total) xong)</sub></summary>",
+      "<summary><h3>\(.name) — \(.doing) đang làm · \(.done)/\(.total) xong</h3></summary>",
+      "",
+      "<p><code>\(.block)</code> · <code>\(.scope)</code></p>",
       "",
       "<table>",
       "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã FR</th><th align=\"left\">Công việc</th><th align=\"center\">Trạng thái</th><th align=\"center\">PR</th></tr></thead>",
@@ -75,7 +79,7 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
       "</details>",
       ""
     ),
-    "<p align=\"center\"><sub>Tổng: <b>\($all | length)</b> đầu việc · ✅ \($tDone) xong · 🔨 \($tDoing) đang làm · 📋 \($tTodo) chờ · <a href=\"https://github.com/\($owner)/\($repo)/issues\">tất cả issue</a></sub></p>"
+    "<p align=\"center\">Tổng: <b>\($all | length)</b> đầu việc · ✅ <b>\($tDone)</b> xong · 🔨 <b>\($tDoing)</b> đang làm · 📋 <b>\($tTodo)</b> chờ · <a href=\"https://github.com/\($owner)/\($repo)/issues\">tất cả issue</a></p>"
 ' <<<"$items")
 
 HTML_BLOCK="$html" python3 - "$README" <<'PY'
