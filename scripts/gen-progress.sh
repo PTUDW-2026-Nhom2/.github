@@ -25,10 +25,11 @@ members='[
 
 html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --arg repo "$REPO" \
   --arg now "$(TZ=Asia/Ho_Chi_Minh date '+%d/%m/%Y %H:%M GMT+7')" '
+  def esc: gsub("&"; "&amp;") | gsub("->"; "→");
   def bar(p): (((p/10)|floor) as $f | ("█" * $f) + ("░" * (10 - $f)));
   def badge: {"In Progress":"🔨 Đang làm","Done":"✅ Xong","Todo":"📋 Chờ"}[.] // ("📋 " + .);
   def order: {"In Progress":0,"Done":1,"Todo":2}[.] // 3;
-  def fr: . as $t | (($t.title | capture("^\\[(?<c>[A-Z-]+-[0-9]+)\\]\\s*(?<rest>.*)$")) // {c:"—", rest:$t.title});
+  def fr: . as $t | (($t.title | capture("^\\[(?<c>[^\\]]*N?FR-[^\\]]*)\\]\\s*(?<rest>.*)$")) // {c:"—", rest:$t.title});
   def prs: (if (.prs | length) == 0 then "—"
             else (.prs | map("<a href=\"" + .url + "\">#" + (.number|tostring) + "</a>") | join(" ")) end);
 
@@ -74,7 +75,7 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
       "  <tbody>",
       (.login as $lg | .tasks | sort_by((.status | order), -.number)[] | fr as $f
        | (.assignees - [$lg]) as $co |
-      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c)</code></td><td align=\"left\">\($f.rest)\(if ($co | length) > 0 then " 🤝 <i>làm chung với " + ($co | map("@" + .) | join(", ")) + "</i>" else "" end)</td><td align=\"center\">\(.status | badge)</td><td align=\"center\">\(prs)</td></tr>"),
+      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c | esc)</code></td><td align=\"left\">\($f.rest | esc)\(if ($co | length) > 0 then " 🤝 <i>làm chung với " + ($co | map("@" + .) | join(", ")) + "</i>" else "" end)</td><td align=\"center\">\(.status | badge)</td><td align=\"center\">\(prs)</td></tr>"),
       "  </tbody>",
       "</table>",
       "",
@@ -89,7 +90,7 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
       "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã FR</th><th align=\"left\">Công việc</th><th align=\"center\">Trạng thái</th></tr></thead>",
       "  <tbody>",
       ($orphan | sort_by((.status | order), -.number)[] | fr as $f |
-      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c)</code></td><td align=\"left\">\($f.rest)</td><td align=\"center\">\(.status | badge)</td></tr>"),
+      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c | esc)</code></td><td align=\"left\">\($f.rest | esc)</td><td align=\"center\">\(.status | badge)</td></tr>"),
       "  </tbody>",
       "</table>",
       "",
