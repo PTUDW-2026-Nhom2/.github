@@ -35,7 +35,7 @@
 <!-- PROGRESS:START -->
 <h2>📋 Phân chia công việc</h2>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/09/2026 21:35 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/09/2026 21:36 GMT+7</b></p>
 
 <p>Mỗi thành viên phụ trách <b>trọn một khối tính năng</b> — từ database, API backend đến giao diện frontend.</p>
 
