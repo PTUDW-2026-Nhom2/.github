@@ -35,7 +35,7 @@
 <!-- PROGRESS:START -->
 <h2>📋 Phân chia công việc</h2>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/09/2026 21:35 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/09/2026 21:37 GMT+7</b></p>
 
 <p>Mỗi thành viên phụ trách <b>trọn một khối tính năng</b> — từ database, API backend đến giao diện frontend.</p>
 
@@ -70,7 +70,7 @@
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/42">#42</a></td><td align="center"><code>FR-JOB-001</code></td><td align="left">Welcome Email Job</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/37">#37</a></td><td align="center"><code>FR-RCP-006</code></td><td align="left">Lưu trữ Công thức (Archive)</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/36">#36</a></td><td align="center"><code>FR-RCP-005</code></td><td align="left">Xuất bản / Hủy Xuất bản Công thức</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/7">#7</a></td><td align="center"><code>—</code></td><td align="left">[FR-RCP-007 & FR-JOB-001 -> 003] Xóa công thức & Hệ thống Background Jobs với BullMQ</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/7">#7</a></td><td align="center"><code>—</code></td><td align="left">[FR-RCP-007 & FR-JOB-001 -> 003] Xóa công thức & Hệ thống Background Jobs với BullMQ 🤝 <i>làm chung với @dopaemon</i></td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/6">#6</a></td><td align="center"><code>—</code></td><td align="left">[FR-RCP-003 -> 006] Quản lý vòng đời công thức (Tạo, Sửa, Publish, Archive)</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/5">#5</a></td><td align="center"><code>—</code></td><td align="left">[FR-RCP-001 -> 002] Xem danh sách và chi tiết công thức nấu ăn</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/4">#4</a></td><td align="center"><code>—</code></td><td align="left">Trần Thị Phương Trang - 2314288</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
@@ -122,7 +122,7 @@
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/14">#14</a></td><td align="center"><code>—</code></td><td align="left">[FR-OBS-001 -> 003 & Docker] Quan sát Hệ thống & Hạ tầng Docker/CI-CD</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/13">#13</a></td><td align="center"><code>—</code></td><td align="left">[FR-AUTH-001 -> 007] Hệ thống Xác thực & Quản lý Người dùng</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/12">#12</a></td><td align="center"><code>—</code></td><td align="left">Trần Nguyễn Tuấn Anh - 2312577</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/7">#7</a></td><td align="center"><code>—</code></td><td align="left">[FR-RCP-007 & FR-JOB-001 -> 003] Xóa công thức & Hệ thống Background Jobs với BullMQ</td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/7">#7</a></td><td align="center"><code>—</code></td><td align="left">[FR-RCP-007 & FR-JOB-001 -> 003] Xóa công thức & Hệ thống Background Jobs với BullMQ 🤝 <i>làm chung với @ChuChoaChan131019</i></td><td align="center">📋 Chờ</td><td align="center">—</td></tr>
   </tbody>
 </table>
 

@@ -40,6 +40,7 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
       todo:  ($mine | map(select(.status == "Todo")) | length),
       total: ($mine | length)
     }))) as $rows
+  | ($all | map(select((.assignees | length) == 0))) as $orphan
   | ($all | map(select(.status == "Done")) | length) as $tDone
   | ($all | map(select(.status == "In Progress")) | length) as $tDoing
   | ($all | map(select(.status == "Todo")) | length) as $tTodo
@@ -71,14 +72,30 @@ html=$(jq -r --argjson m "$members" --arg board "$BOARD" --arg owner "$OWNER" --
       "<table>",
       "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã FR</th><th align=\"left\">Công việc</th><th align=\"center\">Trạng thái</th><th align=\"center\">PR</th></tr></thead>",
       "  <tbody>",
-      (.tasks | sort_by((.status | order), -.number)[] | fr as $f |
-      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c)</code></td><td align=\"left\">\($f.rest)</td><td align=\"center\">\(.status | badge)</td><td align=\"center\">\(prs)</td></tr>"),
+      (.login as $lg | .tasks | sort_by((.status | order), -.number)[] | fr as $f
+       | (.assignees - [$lg]) as $co |
+      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c)</code></td><td align=\"left\">\($f.rest)\(if ($co | length) > 0 then " 🤝 <i>làm chung với " + ($co | map("@" + .) | join(", ")) + "</i>" else "" end)</td><td align=\"center\">\(.status | badge)</td><td align=\"center\">\(prs)</td></tr>"),
       "  </tbody>",
       "</table>",
       "",
       "</details>",
       ""
     ),
+    (if ($orphan | length) > 0 then
+      "<details open>",
+      "<summary><h3>⚠️ Chưa ai nhận — \($orphan | length) việc</h3></summary>",
+      "",
+      "<table>",
+      "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã FR</th><th align=\"left\">Công việc</th><th align=\"center\">Trạng thái</th></tr></thead>",
+      "  <tbody>",
+      ($orphan | sort_by((.status | order), -.number)[] | fr as $f |
+      "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c)</code></td><td align=\"left\">\($f.rest)</td><td align=\"center\">\(.status | badge)</td></tr>"),
+      "  </tbody>",
+      "</table>",
+      "",
+      "</details>",
+      ""
+     else empty end),
     "<p align=\"center\">Tổng: <b>\($all | length)</b> đầu việc · ✅ <b>\($tDone)</b> xong · 🔨 <b>\($tDoing)</b> đang làm · 📋 <b>\($tTodo)</b> chờ · <a href=\"https://github.com/\($owner)/\($repo)/issues\">tất cả issue</a></p>"
 ' <<<"$items")
 
