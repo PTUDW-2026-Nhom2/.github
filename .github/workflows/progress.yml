@@ -1,0 +1,27 @@
+name: Cập nhật tiến độ README
+
+on:
+  schedule:
+    - cron: '0 17 * * *' # 00:00 GMT+7
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sinh bảng phân chia công việc
+        env:
+          GH_TOKEN: ${{ secrets.OW_GH_TOKEN }}
+        run: ./scripts/gen-progress.sh
+
+      - name: Commit nếu có thay đổi
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git diff --quiet profile/README.md && echo 'không có thay đổi' && exit 0
+          git commit -am 'chore(docs): cập nhật tiến độ công việc' && git push
