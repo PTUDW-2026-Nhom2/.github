@@ -18,7 +18,9 @@ items=$(gh api graphql --paginate -F org="$OWNER" -F num="$PROJECT" -F query=@"$
 
 html=$(jq -r --arg board "$BOARD" --arg now "$(TZ=Asia/Ho_Chi_Minh date '+%d/%m/%Y %H:%M GMT+7')" '
   def esc: gsub("&"; "&amp;") | gsub("->"; "→");
-  def fr: . as $t | (($t.title | capture("^\\[(?<c>[^\\]]*N?FR-[^\\]]*)\\]\\s*(?<rest>.*)$")) // {c:"—", rest:$t.title});
+  # Bắt mọi mã trong ngoặc vuông đầu title: FR-, NFR-, FE-, ... (trước đây chỉ khớp N?FR- nên
+  # issue FE-* rơi vào nhánh fallback: cột mã hiện "—" và title còn nguyên tiền tố "[FE-...]").
+  def fr: . as $t | (($t.title | capture("^\\[(?<c>[^\\]]+)\\]\\s*(?<rest>.*)$")) // {c:"—", rest:$t.title});
   def who: (.assignees | if length == 0 then "⚠️ chưa ai nhận"
             else map("<a href=\"https://github.com/" + . + "\"><img src=\"https://github.com/" + . + ".png\" width=\"24\" height=\"24\"/> @" + . + "</a>") | join("<br/>") end);
   def prs: (if (.prs | length) == 0 then "—"
@@ -39,7 +41,7 @@ html=$(jq -r --arg board "$BOARD" --arg now "$(TZ=Asia/Ho_Chi_Minh date '+%d/%m/
   "",
   "<div align=\"center\">",
   "<table>",
-  "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã FR</th><th align=\"left\">Công việc</th><th align=\"center\">Người làm</th><th align=\"center\">PR</th></tr></thead>",
+  "  <thead><tr><th align=\"center\">Issue</th><th align=\"center\">Mã YC</th><th align=\"left\">Công việc</th><th align=\"center\">Người làm</th><th align=\"center\">PR</th></tr></thead>",
   "  <tbody>",
   ($tasks | sort_by(-.number)[] | fr as $f |
   "    <tr><td align=\"center\"><a href=\"\(.url)\">#\(.number)</a></td><td align=\"center\"><code>\($f.c | esc)</code></td><td align=\"left\">\($f.rest | esc)</td><td align=\"center\">\(who)</td><td align=\"center\">\(prs)</td></tr>"),
