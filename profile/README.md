@@ -35,14 +35,15 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>██░░░░░░░░</code> <b>21%</b> — ✅ <b>12</b> xong · 🔨 <b>4</b> đang làm · 📋 <b>40</b> chờ · tổng <b>56</b> việc</p>
+<p align="center"><code>██░░░░░░░░</code> <b>23%</b> — ✅ <b>13</b> xong · 🔨 <b>5</b> đang làm · 📋 <b>38</b> chờ · tổng <b>56</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>25/09/2026 23:52 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>26/09/2026 02:32 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/63">#63</a></td><td align="center"><code>FE-CORE-001</code></td><td align="left">Layout chung: Navbar, Footer, shadcn/ui, Trang chủ</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/85">#85</a></td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/39">#39</a></td><td align="center"><code>FR-RCP-009</code></td><td align="left">Quản lý Nguyên liệu (CRUD RecipeIngredient)</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/34">#34</a></td><td align="center"><code>FR-RCP-002</code></td><td align="left">Xem Chi tiết Công thức</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/28">#28</a></td><td align="center"><code>FR-CAT-002</code></td><td align="left">Xem Chi tiết Danh mục và Công thức</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center">—</td></tr>
