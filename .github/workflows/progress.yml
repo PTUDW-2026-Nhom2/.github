@@ -2,12 +2,7 @@ name: Cập nhật tiến độ README
 
 on:
   schedule:
-    # Mỗi 30 phút trong 08:00–00:30 GMT+7 (01:00–17:30 UTC) — ban đêm không chạy.
-    # Board Projects v2 đổi Status không phát event nào cho Actions nên phải poll bằng cron.
-    - cron: '*/30 1-17 * * *'
-  # CulinaryBlog bắn sang khi có PR/issue mới để cột PR cập nhật ngay, không đợi cron.
-  repository_dispatch:
-    types: [progress]
+    - cron: '0 17 * * *' # 00:00 GMT+7
   workflow_dispatch:
 
 permissions:
