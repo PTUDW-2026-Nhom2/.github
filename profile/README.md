@@ -35,9 +35,9 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>██░░░░░░░░</code> <b>29%</b> — ✅ <b>17</b> xong · 🔨 <b>7</b> đang làm · 📋 <b>35</b> chờ · tổng <b>59</b> việc</p>
+<p align="center"><code>██░░░░░░░░</code> <b>29%</b> — ✅ <b>17</b> xong · 🔨 <b>9</b> đang làm · 📋 <b>33</b> chờ · tổng <b>59</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>30/09/2026 18:50 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>30/09/2026 19:07 GMT+7</b></p>
 
 <div align="center">
 <table>
@@ -45,6 +45,8 @@
   <tbody>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/71">#71</a></td><td align="center"><code>FE-CAT-001</code></td><td align="left">Trang Danh mục /categories</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/67">#67</a></td><td align="center"><code>FE-RCP-001</code></td><td align="left">Trang Danh sách Công thức /recipes</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/66">#66</a></td><td align="center"><code>FE-AUTH-003</code></td><td align="left">Trang Hồ sơ cá nhân /profile và quản lý phiên đăng nhập</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/46">#46</a></td><td align="center"><code>FR-OBS-001</code></td><td align="left">Health Check Endpoints</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/39">#39</a></td><td align="center"><code>FR-RCP-009</code></td><td align="left">Quản lý Nguyên liệu (CRUD RecipeIngredient)</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/38">#38</a></td><td align="center"><code>FR-RCP-008</code></td><td align="left">Quản lý Ảnh Công thức (Upload / Set Primary / Delete)</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/37">#37</a></td><td align="center"><code>FR-RCP-006</code></td><td align="left">Lưu trữ Công thức (Archive)</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
