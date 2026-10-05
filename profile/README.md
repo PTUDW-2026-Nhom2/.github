@@ -37,14 +37,14 @@
 
 <p align="center"><code>███░░░░░░░</code> <b>37%</b> — ✅ <b>22</b> xong · 🔨 <b>4</b> đang làm · 📋 <b>33</b> chờ · tổng <b>59</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>05/10/2026 02:51 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>06/10/2026 05:56 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/71">#71</a></td><td align="center"><code>FE-CAT-001</code></td><td align="left">Trang Danh mục /categories</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center">—</td></tr>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/67">#67</a></td><td align="center"><code>FE-RCP-001</code></td><td align="left">Trang Danh sách Công thức /recipes</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/67">#67</a></td><td align="center"><code>FE-RCP-001</code></td><td align="left">Trang Danh sách Công thức /recipes</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/102">#102</a></td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/46">#46</a></td><td align="center"><code>FR-OBS-001</code></td><td align="left">Health Check Endpoints</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/28">#28</a></td><td align="center"><code>FR-CAT-002</code></td><td align="left">Xem Chi tiết Danh mục và Công thức</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/99">#99</a></td></tr>
   </tbody>
