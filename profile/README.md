@@ -35,19 +35,17 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>████░░░░░░</code> <b>47%</b> — ✅ <b>28</b> xong · 🔨 <b>5</b> đang làm · 📋 <b>26</b> chờ · tổng <b>59</b> việc</p>
+<p align="center"><code>█████░░░░░</code> <b>58%</b> — ✅ <b>34</b> xong · 🔨 <b>3</b> đang làm · 📋 <b>22</b> chờ · tổng <b>59</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>07/10/2026 04:19 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>07/10/2026 15:48 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/90">#90</a></td><td align="center"><code>FR-AUTH/OBS</code></td><td align="left">Chuẩn hóa domain exceptions &amp; global exception filter (RFC 7807)</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/71">#71</a></td><td align="center"><code>FE-CAT-001</code></td><td align="left">Trang Danh mục /categories</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center">—</td></tr>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/65">#65</a></td><td align="center"><code>FE-AUTH-002</code></td><td align="left">Trang Đăng ký /register</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center">—</td></tr>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/64">#64</a></td><td align="center"><code>FE-AUTH-001</code></td><td align="left">Trang Đăng nhập /login</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center">—</td></tr>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/28">#28</a></td><td align="center"><code>FR-CAT-002</code></td><td align="left">Xem Chi tiết Danh mục và Công thức</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/99">#99</a></td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/29">#29</a></td><td align="center"><code>FR-CAT-004</code></td><td align="left">Cập nhật Danh mục [Admin]</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/18">#18</a></td><td align="center"><code>FR-AUTH-001</code></td><td align="left">Đăng ký tài khoản (User Registration)</td><td align="center"><a href="https://github.com/dopaemon"><img src="https://github.com/dopaemon.png" width="24" height="24"/> @dopaemon</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/49">#49</a></td></tr>
   </tbody>
 </table>
 </div>
