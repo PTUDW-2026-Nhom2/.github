@@ -35,15 +35,20 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>███████░░░</code> <b>76%</b> — ✅ <b>45</b> xong · 🔨 <b>1</b> đang làm · 📋 <b>13</b> chờ · tổng <b>59</b> việc</p>
+<p align="center"><code>███████░░░</code> <b>76%</b> — ✅ <b>45</b> xong · 🔨 <b>6</b> đang làm · 📋 <b>8</b> chờ · tổng <b>59</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>09/10/2026 00:11 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>09/10/2026 00:48 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/69">#69</a></td><td align="center"><code>FE-RCP-003</code></td><td align="left">Form Tạo / Sửa Công thức</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/68">#68</a></td><td align="center"><code>FE-RCP-002</code></td><td align="left">Trang Chi tiết Công thức /recipes/[slug]</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/44">#44</a></td><td align="center"><code>FR-JOB-003</code></td><td align="left">Sitemap Generation Job</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/17">#17</a></td><td align="center"><code>FR-RCP-009 → 010</code></td><td align="left">Quản lý Nguyên liệu và Các bước Thực hiện Công thức</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/16">#16</a></td><td align="center"><code>FR-FILE-001 → 002 &amp; FR-RCP-008</code></td><td align="left">Tải lên &amp; Quản lý Tệp tin Media MinIO</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/9">#9</a></td><td align="center"><code>FR-CAT-001 → 005</code></td><td align="left">Quản lý Danh mục Công thức (Category CRUD)</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center">—</td></tr>
   </tbody>
 </table>
 </div>
