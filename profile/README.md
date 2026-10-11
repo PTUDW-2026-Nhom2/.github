@@ -37,7 +37,7 @@
 
 <p align="center"><code>████████░░</code> <b>81%</b> — ✅ <b>48</b> xong · 🔨 <b>6</b> đang làm · 📋 <b>5</b> chờ · tổng <b>59</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>11/10/2026 03:21 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>12/10/2026 03:38 GMT+7</b></p>
 
 <div align="center">
 <table>
