@@ -35,15 +35,17 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>███████░░░</code> <b>79%</b> — ✅ <b>57</b> xong · 🔨 <b>2</b> đang làm · 📋 <b>13</b> chờ · tổng <b>72</b> việc</p>
+<p align="center"><code>███████░░░</code> <b>79%</b> — ✅ <b>57</b> xong · 🔨 <b>4</b> đang làm · 📋 <b>11</b> chờ · tổng <b>72</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>19/10/2026 02:02 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>20/10/2026 04:17 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/139">#139</a></td><td align="center"><code>NFR-SEO-001</code></td><td align="left">Structured data JSON-LD schema.org/Recipe cho trang chi tiết</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/145">#145</a></td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/138">#138</a></td><td align="center"><code>FR-RCP-005/006/007</code></td><td align="left">Trang dashboard danh sách công thức + chuyển trạng thái Draft→Published→Archived/Deleted</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/146">#146</a></td></tr>
+    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/70">#70</a></td><td align="center"><code>FE-RCP-004</code></td><td align="left">Dashboard Quản lý Công thức /dashboard/recipes</td><td align="center"><a href="https://github.com/ChuChoaChan131019"><img src="https://github.com/ChuChoaChan131019.png" width="24" height="24"/> @ChuChoaChan131019</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/146">#146</a></td></tr>
     <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/15">#15</a></td><td align="center"><code>—</code></td><td align="left">Trần Minh Tài - 2312740</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
   </tbody>
 </table>
