@@ -35,15 +35,14 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>█████████░</code> <b>93%</b> — ✅ <b>67</b> xong · 🔨 <b>1</b> đang làm · 📋 <b>4</b> chờ · tổng <b>72</b> việc</p>
+<p align="center"><code>█████████░</code> <b>96%</b> — ✅ <b>72</b> xong · 🔨 <b>0</b> đang làm · 📋 <b>3</b> chờ · tổng <b>75</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/10/2026 03:20 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/10/2026 23:42 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/15">#15</a></td><td align="center"><code>—</code></td><td align="left">Trần Minh Tài - 2312740</td><td align="center"><a href="https://github.com/minhtai05"><img src="https://github.com/minhtai05.png" width="24" height="24"/> @minhtai05</a></td><td align="center">—</td></tr>
   </tbody>
 </table>
 </div>
