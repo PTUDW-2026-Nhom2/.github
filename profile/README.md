@@ -35,9 +35,9 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>█████████░</code> <b>96%</b> — ✅ <b>72</b> xong · 🔨 <b>0</b> đang làm · 📋 <b>3</b> chờ · tổng <b>75</b> việc</p>
+<p align="center"><code>█████████░</code> <b>97%</b> — ✅ <b>75</b> xong · 🔨 <b>0</b> đang làm · 📋 <b>2</b> chờ · tổng <b>77</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>23/10/2026 23:42 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>24/10/2026 03:07 GMT+7</b></p>
 
 <div align="center">
 <table>
