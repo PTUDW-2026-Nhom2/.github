@@ -35,15 +35,14 @@
 <!-- PROGRESS:START -->
 <h2>🔨 Công việc đang làm</h2>
 
-<p align="center"><code>█████████░</code> <b>97%</b> — ✅ <b>75</b> xong · 🔨 <b>1</b> đang làm · 📋 <b>1</b> chờ · tổng <b>77</b> việc</p>
+<p align="center"><code>█████████░</code> <b>99%</b> — ✅ <b>76</b> xong · 🔨 <b>0</b> đang làm · 📋 <b>1</b> chờ · tổng <b>77</b> việc</p>
 
-<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>27/10/2026 04:14 GMT+7</b></p>
+<p align="center">Tự động cập nhật <b>00:00 (GMT+7)</b> mỗi ngày từ <a href="https://github.com/orgs/PTUDW-2026-Nhom2/projects/2/views/3"><b>Project board</b></a><br/>Cập nhật lần cuối: <b>28/10/2026 04:01 GMT+7</b></p>
 
 <div align="center">
 <table>
   <thead><tr><th align="center">Issue</th><th align="center">Mã YC</th><th align="left">Công việc</th><th align="center">Người làm</th><th align="center">PR</th></tr></thead>
   <tbody>
-    <tr><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/issues/45">#45</a></td><td align="center"><code>FR-SRCH-001</code></td><td align="left">Tìm kiếm Toàn văn bản tiếng Việt (Full-Text Search)</td><td align="center"><a href="https://github.com/minnhi09"><img src="https://github.com/minnhi09.png" width="24" height="24"/> @minnhi09</a></td><td align="center"><a href="https://github.com/PTUDW-2026-Nhom2/CulinaryBlog/pull/162">#162</a></td></tr>
   </tbody>
 </table>
 </div>
